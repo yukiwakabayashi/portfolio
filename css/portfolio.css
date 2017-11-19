@@ -1,0 +1,251 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+        
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #D7C49D;
+    
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #9FBCDF;
+}
+a:visited
+{
+    color: #9FBCDF;
+}
+a:hover
+{
+    color: #79A1D4;
+}
+a:active
+{
+    color: #9FBCDF;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.text-center
+{
+    text-align: justify;
+}
+
+.block-center,
+section .container,
+#skills i
+{
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.button-contact
+{
+    font-size: 20px;
+    line-height: 0;
+    display: block;
+    width: 50px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: #9FBCDF;
+    border: 2px solid ;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.button-contact:visited
+{
+    color: #79A1D4;
+}
+.button-contact:hover,
+.button-contact:active
+{
+    color: #79A1D4;
+    background-color: #79A1D4;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    //text-align: justify;
+    text-align: cneter;
+}
+
+
+header .profile
+{
+    clear: both;
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+header .site-title
+{
+    font-size: 1.8rem;
+    line-height: normal;
+}
+header .site-title span
+{
+    font-size: 4.2rem;
+    display: block;
+
+    color: #79A1D4 ;
+}
+header .blue
+{
+    color: #9FBCDF;
+}
+
+main .blue
+{
+    color: #9FBCDF;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .contents-title
+{
+    padding: 50px;
+    font-size: 25px 
+    
+    
+}
+
+main .profile-icon
+{
+    margin: 0px 80px 0px;
+    float:left;
+    vertical-align: middle;
+    transform:rotate(-6deg);
+   
+}
+
+
+
+
+main .container
+{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+main p
+{
+    font-size: 1.1rem;
+    word-break: break-all;
+    
+    
+}
+
+
+
+main .text-center
+{
+     text-align: center;
+     color: #79A1D4;
+}
+
+.flex-container {
+  -webkit-justify-content: center; /* Safari */
+  justify-content:         center;
+  flex-direction:         row;
+}
+
+
+
+#works .works-box a
+{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+#works .works-box a .works-box-inner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    height: 100%;
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+
+
+
+#contact{
+        text-align: center;
+        
+}
+
+main .foot-container {
+  -webkit-justify-content: space-between; /* Safari */
+  justify-content:         space-between;
+  margin: 0px;
+  
+}
+
+main .foot-container p{
+    font-size: 1.4rem;
+    margin-bottom: 80px;
+    
+}
+
+
+footer
+{
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+  
+}
+
+
+
+
+
+.flexible-images {
+  max-width: 100%;
+  height: auto;
+}
+
+
