@@ -47,6 +47,15 @@ a:hover
     text-align: justify;
 }
 
+.site-title
+{
+    font-family: 'Homemade Apple', cursive;
+    margin-bottom: 30px;
+}
+
+
+
+
 .block-center,
 section .container,
 #skills i
@@ -116,6 +125,7 @@ header .site-title span
     display: block;
 
     color: #79A1D4 ;
+    
 }
 header .blue
 {
@@ -169,6 +179,12 @@ main p
     word-break: break-all;
     
     
+    
+}
+
+main ul
+{
+    text-align: left;
 }
 
 
@@ -195,6 +211,10 @@ main .text-center
 #contact{
         text-align: center;
         
+}
+
+main .contents-title{
+    font-family: 'Homemade Apple', cursive;
 }
 
 main .foot-container {
@@ -254,4 +274,4 @@ footer
   height: auto;
 }
 
-
+@media screen and (max-width: 480px;)
