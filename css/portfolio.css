@@ -148,7 +148,7 @@ main .contents-title
     padding: 50px;
     font-size: 25px 
     
-    
+
 }
 
 main .profile-icon
@@ -200,9 +200,6 @@ main .text-center
   justify-content:         center;
   flex-direction:         row;
 }
-
-
-
 
 
 

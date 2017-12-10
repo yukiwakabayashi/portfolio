@@ -25,3 +25,8 @@ main .contents-title
      font-size: 25px;
      text-align: center
 }
+
+main #works
+{
+    text-align: center;
+}
