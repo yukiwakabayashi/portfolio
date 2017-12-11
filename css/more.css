@@ -30,3 +30,14 @@ main #works
 {
     text-align: center;
 }
+
+main .freepaper
+{
+    font-size: 20px;
+    
+}
+
+main p
+{
+    padding: 15px;
+}
