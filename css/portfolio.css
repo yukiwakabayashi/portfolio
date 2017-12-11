@@ -11,7 +11,7 @@ html
 body
 {
     font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     letter-spacing: .1em;
     color: #4c4c4c;
@@ -31,7 +31,7 @@ a:visited
 }
 a:hover
 {
-    color: #79A1D4;
+    color: #9FBCDF;
 }
 a:active
 {
@@ -129,12 +129,12 @@ header .site-title span
 }
 header .blue
 {
-    color: #9FBCDF;
+    color: #79A1D4;
 }
 
 main .blue
 {
-    color: #9FBCDF;
+    color: #79A1D4;
 }
 
 
@@ -222,7 +222,7 @@ main .foot-container {
 }
 
 main .foot-container p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-bottom: 80px;
     
 }
@@ -230,6 +230,7 @@ main .foot-container p{
 
 .works-box {
   position: relative;
+  margin-top: 20px
   }
 .works-box a {/*aタグを画像の真ん中に*/
   position: absolute;
@@ -241,14 +242,15 @@ main .foot-container p{
   /*以下装飾*/
   margin:0;/*余計な隙間を除く*/
   font-size: 20px;/*文字サイズ*/
-  border: solid white 2px; /*線で囲う*/
+  border: solid #87796a 2px; /*線で囲う*/
   padding: 7px;/*文字と線の間の余白*/
-  color: white;/*文字色*/
+  color: #87796a;/*文字色*/
+  background: rgba(255, 255, 255, 0.5);/*背景を半透明に*/
   text-decoration: none;/*下線を表示させない*/
   }
 
 .works-box a:hover{/*カーソルを当てたとき*/
-  background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+  background: rgba(135, 121, 106, 0.5);/*背景を半透明に*/
   }
 
 div {
